@@ -13,8 +13,8 @@ function Inicio() {
 
   useEffect(() => {
     fetch("https://my-json-server.typicode.com/WillyBurritos/alura-cinema-api/videos")
-      .then(response => response.json())
-      .then(data => {
+      .then((response) => response.json())
+      .then((data) => {
         setVideos(data)
       })
   }, [])

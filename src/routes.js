@@ -9,7 +9,6 @@ import PaginaBase from "pages/PaginaBase";
 function AppRoutes() {
     return (
         <BrowserRouter>
-
             <Routes>
                 <Route path="/" element={<PaginaBase/>}>
                 <Route index element={<Inicio />}></Route>
@@ -18,7 +17,6 @@ function AppRoutes() {
                 <Route path="*" element={<NotFound />}></Route>
                 </Route>
             </Routes>
-
         </BrowserRouter>
     )
 }

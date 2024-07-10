@@ -19,5 +19,4 @@ function PaginaBase() {
     )
 }
 
-
 export default PaginaBase
