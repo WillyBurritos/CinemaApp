@@ -1,6 +1,6 @@
 
-import Banner from "components/Banner";
-import Titulo from "components/Titulo";
+import Banner from "components/Portada";
+import Titulo from "components/Title";
 import Card from "components/Card";
 import styles from "./index.module.css"
 import { useState, useEffect } from "react";

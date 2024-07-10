@@ -1,6 +1,6 @@
 import styles from "./Player.module.css"
-import Banner from "components/Banner"
-import Titulo from "components/Titulo"
+import Banner from "components/Portada"
+import Titulo from "components/Title"
 import { useParams } from "react-router-dom"
 import  videos  from 'data/db.json';
 import NotFound from "pages/NotFound";
